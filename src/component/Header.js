@@ -1,32 +1,24 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
-  return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  return (<nav class="navbar navbar-expand-lg navbar-light header-container">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <Link class="navbar-brand" to="/">BBMS</Link>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
+    <div class="collapse navbar-collapse navbar-container" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <Link class="nav-link" to="/" aria-current="page">Home</Link>
+        <Link class="nav-link" to="/our-team">Our Team</Link>
+        <Link class="nav-link" to="/about">About</Link>
+        <Link class="nav-link" to="/contact">Contact</Link>
+      </div>
     </div>
   </div>
 </nav>
   );
-};
+}
 
 export default Header;
