@@ -1,12 +1,13 @@
 import React from "react";
 import Header from "../component/Header";
-
+import OurTeamList from "../component/OurTeamList";
+import Footer from "../component/Footer";
 const OurTeam = () => {
   return (
     <>
       <Header />
-      <h1>Our Team</h1>
-      <p>Welcome to our team page!</p>
+      <OurTeamList/>
+      <Footer />
     </>
   );
 }
