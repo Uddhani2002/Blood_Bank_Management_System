@@ -16,3 +16,22 @@
   position: absolute;
   right: 0;
 }
+.services-container {
+  background-color: red;
+  padding: 20px;
+  text-align: center;
+}
+.services-title {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.service-card {
+  width: 80%;
+  display:flex;
+  justify-content: center;
+}
+.card-title {
+  color: red;
+  font-weight: bold;
+}

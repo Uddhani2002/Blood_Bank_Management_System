@@ -1,12 +1,15 @@
 import React from "react";
 import Header from "../component/Header";
-
+import Banner from "../component/Banner";
+import Services from "../component/Services";
+import Donor from "../component/Donor";
 const Home = () => {
   return (
     <>
       <Header />
-      <h1>Home</h1>
-      <p>Welcome to our home page!</p>
+      <Banner />
+      <Services />
+      <Donor />
     </>    
   );
 };
