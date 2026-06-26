@@ -4,7 +4,10 @@ const OurTeamList = () => {
     const team =[
         { id: 1, name: "John Doe", position: "Manager" },
         { id: 2, name: "Jane Smith", position: "Developer" },
-        { id: 3, name: "Bob Johnson", position: "Designer" }
+        { id: 3, name: "Bob Johnson", position: "Designer" },
+        { id: 4, name: "Alice Brown", position: "QA Engineer" },
+        { id: 5, name: "Charlie Wilson", position: "Sales Associate" },
+        { id: 6, name: "Emily Davis", position: "Marketing Specialist" }
     ];
 
   return (<div className="row" style={{backgroundColor:"#585d62"}}>
