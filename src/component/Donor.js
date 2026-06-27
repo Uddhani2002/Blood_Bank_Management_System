@@ -13,7 +13,7 @@ const Donor = () => {
             </div>
         </div>
         <div className="text-center"> 
-            <button className="btn btn-danger" style={{marginTop: '20px'}}> Join Us</button>
+            <Link to="/donor-request" className="btn btn-danger" style={{marginTop: '20px'}}> Join Us</Link>
         </div>
       </div>
       <div className="col-sm-6">

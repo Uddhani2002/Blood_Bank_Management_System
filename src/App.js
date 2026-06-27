@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import OurTeam from './pages/OurTeam';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import DonorRequest from './pages/DonorRequest';
 import 'jquery'; 
 import 'popper.js'; 
 import 'bootstrap/dist/js/bootstrap.min.js';
@@ -18,6 +19,7 @@ function App() {
         <Route path="/our-team" element={<OurTeam />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/donor-request" element={<DonorRequest />} />
       </Routes>
     </BrowserRouter>
     
