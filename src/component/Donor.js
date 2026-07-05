@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import DonorImage from "../assets/image/donor.jpg";
 const Donor = () => {
   return (
@@ -13,7 +14,7 @@ const Donor = () => {
             </div>
         </div>
         <div className="text-center"> 
-            <Link to="/donor-request" className="btn btn-danger" style={{marginTop: '20px'}}> Join Us</Link>
+            <Link to={'/donor-request'} className="btn btn-danger" style={{marginTop: '20px'}}> Join Us</Link>
         </div>
       </div>
       <div className="col-sm-6">
